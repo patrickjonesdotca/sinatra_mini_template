@@ -8,6 +8,7 @@ get '/' do
     endpoints: [ { 
       http_verb: 'GET',
       description: 'landing page',
-      url_pattern: '/'
+      url_pattern: '/' }
+    ]
   }.to_json
 end
